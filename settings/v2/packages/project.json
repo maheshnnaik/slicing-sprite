@@ -1,0 +1,14 @@
+{
+  "layer": [
+    {
+      "name": "default",
+      "value": 1
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1920
+    }
+  }
+}
