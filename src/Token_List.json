@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Diamond",
+		"address": "0x6702D328CDc0cC438AB5C667E7A2033f8065C64F",
+		"symbol": "DMD",
+		"decimals": 18,
+		"chainId": 80001
+	},
+	{
+		"name": "Wrapped Matic",
+		"address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+		"symbol": "WMATIC",
+		"decimals": 18,
+		"chainId": 80001,
+		"logoURI": "https://assets.coingecko.com/coins/images/4713/thumb/matic-token-icon.png?1624446912"
+	},
+	{
+		"name": "Wrapped Ether",
+		"address": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa",
+		"symbol": "WETH",
+		"decimals": 18,
+		"chainId": 80001,
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+	}
+]
