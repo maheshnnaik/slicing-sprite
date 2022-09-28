@@ -10,6 +10,11 @@ const TOKENS = {
 	"NATIVE": "NATIVE"
 }
 
+const TxSuccessCallback = () =>{
+	console.log("swap successfull");
+	window.close();
+}
+
 const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
 const isSwap = params.get('isSwap');
@@ -27,6 +32,7 @@ function App() {
 					defaultInputTokenAddress={defaultInputToken}
 					defaultOutputTokenAddress={defaultOutputToken}
 					defaultInputAmount={defaultInputAmount}
+					onTxSuccess={TxSuccessCallback}
 				/>
 			</div>
 		</div>
