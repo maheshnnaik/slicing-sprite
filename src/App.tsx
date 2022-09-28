@@ -22,6 +22,7 @@ function App() {
 		<div className="App">
 			<div className = 'uniswap-widget'>
 				<SwapWidget
+					width="25em"
 					tokenList={TOKEN_LIST}
 					defaultInputTokenAddress={defaultInputToken}
 					defaultOutputTokenAddress={defaultOutputToken}
